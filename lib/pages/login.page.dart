@@ -18,6 +18,8 @@ class _LoginPageState extends State<LoginPage> {
   final List<String> studentPasswords = ['amigos do coração'];
   final List<String> teacherPasswords = ['companheiros de vida'];
 
+  late bool viewPassword = false;
+
   void _validateAndNavigate() {
     String password = _passwordController.text.trim();
 
@@ -98,8 +100,16 @@ class _LoginPageState extends State<LoginPage> {
               decoration: InputDecoration(
                 border: OutlineInputBorder(),
                 labelText: 'Chave de Acesso',
+                suffixIcon: IconButton(
+                  onPressed: () {
+                    setState(() {
+                      viewPassword = !viewPassword;
+                    });
+                  },
+                  icon: Icon(viewPassword ? Icons.visibility_off_outlined : Icons.visibility_outlined)
+                )
               ),
-              obscureText: true,
+              obscureText: !viewPassword,
             ),
             SizedBox(height: 16.0),
             Row(
