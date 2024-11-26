@@ -74407,7 +74407,7 @@ K(a){var s=4294967295,r=4294962431,q=null,p=A.aN(s),o=A.aN(r),n=A.aN(r)
 return new A.ww(B.GV,"Obrigado 4IA",A.oj(q,new A.mz(B.ae,A.aN(4278190080),A.aN(s),q,q,q,q,q,q,A.aN(4289796533),A.aN(4294868222),q,q,q,q,q,q,q,q,q,q,q,q,q,q,B.At,B.k,q,q,B.k,B.l,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,B.k,B.l),o,n,p,A.aFs().$0(),!0),q)}}
 A.wq.prototype={
 ah(){var s=t.s
-return new A.AH(new A.JA(B.xc,$.aj()),A.b(["amigos do cora\xe7\xe3o"],s),A.b(["companheiros de vida"],s))}}
+return new A.AH(new A.JA(B.xc,$.aj()),A.b(["amigos"],s),A.b(["companheiros"],s))}}
 A.AH.prototype={
 gFc(){var s=this.w
 return s===$?this.w=!1:s},

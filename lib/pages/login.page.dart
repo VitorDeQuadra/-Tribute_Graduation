@@ -15,8 +15,8 @@ class _LoginPageState extends State<LoginPage> {
   String? selectedRole;
   final TextEditingController _passwordController = TextEditingController();
 
-  final List<String> studentPasswords = ['amigos do coração'];
-  final List<String> teacherPasswords = ['companheiros de vida'];
+  final List<String> studentPasswords = ['amigos'];
+  final List<String> teacherPasswords = ['companheiros'];
 
   late bool viewPassword = false;
 
